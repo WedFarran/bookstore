@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>FeedBack</title>
+        <link rel ="stylesheet" href = "lab.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="java.js"></script>
+    </head>
+    <body>
+         <!--------------------------------------------����� ������--------------------------------->
+         <nav class="minue">
+            <div class="mylogo"><a href=""><img src="Wha.jpeg" alt="logo smart library" height="40" ></a></div>
+            <ul id="r">
+                <li><a class="m" href="index.html">|  <i class="fa fa-home"></i> HOME</a>
+                    <div class="supc">
+                        <div class="sup">
+                          <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                    </ul>
+                </div>
+                </div>
+                </li>
+                <li><a class="m" href="books.html">|  <i class="fa fa-list"></i> CATEGORY</a>
+                    <div class="supc">
+                        <div class="sup">
+                            <ul>
+                                <li><a href="books.html#best">Best seller</a></li>
+                                <li><a href="books.html#action">Action & Adventure</a></li>
+                                <li><a href="books.html#clasic">Classics</a></li>
+                                <li><a href="books.html#detective">Detective & Mystery</a></li>
+                                <li><a href="books.html#fan">Fantasy</a></li>
+                                <li><a href="books.html#horor">Horror</a></li>
+                                <li><a href="books.html#romance">Romance</a></li>
+                                <li><a href="books.html#scince">Science Fiction</a></li>
+                                <li><a href="books.html#cook">Cookbooks</a></li>
+                            </ul>
+                </div>
+                </div>
+                </li>
+                <li><a class="m" href="signin.html">|  <i class="fa fa-user"></i> SIGN IN</a></li> 
+                <li><a class="m" href="shop.html">|  <i class="fa fa-shopping-cart"></i> SHOP</a></li> 
+                <li><a class="m" href="form.html">|   Feedback</a></li>
+            </ul>
+            </nav>
+            <!----------���� ���� ��� ������------------>
+
+
+
+            </br></br></br></br></br>
+   
+   <form name="feedback" onsubmit="return validateForm()" >
+<h3 id = "h00">Feed Back Form</h3> 
+  <div class="container">
+
+    <label for="name"> Name</label>
+    <input type="text" name="name">
+        <div class="error" id="nameErr"></div>
+
+    <label for="email">Email Address</label>
+   <input type="text" name="email">
+        <div class="error" id="emailErr"></div>
+    <label for="sub">selection</label>
+    <select id="sub" name="sub">
+    <option>Select</option>    
+          <option value="suggestion">Suggestion</option>    
+          <option value="complaint">Complaint</option>    
+          <option value="idea">Idea</option>    
+          <option value="help">Help</option> 
+    </select>
+    <div class="error" id="subErr"></div>
+ 
+    </br></br></br></br></br>
+        <label for="feed_back">Feed Back</label>    
+            <div class="col-75"> 
+        <textarea id="subject" name="subject" placeholder="Write here .." style="height:200px"></textarea>  
+        <div class="error" id="subjecterr"></div>  
+        </div>  
+       
+    <div class="row">    
+      <input type="submit" value="Submit">
+</div>
+</form>
+<!---- back to home page ---->
+
+</body>   
+</html>

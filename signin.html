@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>sign in</title>
+        <link rel ="stylesheet" href = "lab.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="java.js"></script>
+    </head>
+    <body>
+         <!--------------------------------------------نهاية الهيدر--------------------------------->
+         <nav class="minue">
+            <div class="mylogo"><a href=""><img src="Wha.jpeg" alt="logo smart library" height="40" ></a></div>
+            <ul id="r">
+                <li><a class="m" href="index.html">|  <i class="fa fa-home"></i> HOME</a>
+                    <div class="supc">
+                        <div class="sup">
+                          <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                    </ul>
+                </div>
+                </div>
+                </li>
+                <li><a class="m" href="books.html">|  <i class="fa fa-list"></i> CATEGORY</a>
+                    <div class="supc">
+                        <div class="sup">
+                            <ul>
+                                <li><a href="books.html#best">Best seller</a></li>
+                                <li><a href="books.html#action">Action & Adventure</a></li>
+                                <li><a href="books.html#clasic">Classics</a></li>
+                                <li><a href="books.html#detective">Detective & Mystery</a></li>
+                                <li><a href="books.html#fan">Fantasy</a></li>
+                                <li><a href="books.html#horor">Horror</a></li>
+                                <li><a href="books.html#romance">Romance</a></li>
+                                <li><a href="books.html#scince">Science Fiction</a></li>
+                                <li><a href="books.html#cook">Cookbooks</a></li>
+                            </ul>
+                </div>
+                </div>
+                </li>
+                <li><a class="m" href="signin.html">|  <i class="fa fa-user"></i> SIGN IN</a></li> 
+                <li><a class="m" href="shop.html">|  <i class="fa fa-shopping-cart"></i> SHOP</a></li> 
+                <li><a class="m" href="form.html">|   Feedback</a></li>
+            </ul>
+            </nav>
+            <!----------عشان ينزل تحت الهيدر------------>
+            <div class="back">
+                <div class="log">
+                    <h1> Sign In</h1>
+                    <div class="textbox">
+                        <form name="sform" action="#" method="POST" onsubmit="return checkforblank()">
+                        <i class="fa fa-user"></i>
+                        <input type="text" id="name" name="name" value="" placeholder="Username">
+                    </div>
+                
+                    <div class="textbox">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                
+                        <input type="password" name="password" id="password" value="" placeholder="Password">
+                            
+                          
+                    </div>
+                    <div>
+                        <label class="rem"> <input class="rem" type="checkbox" value="true"> Remember Me</label>
+                    </div>
+                    
+                    <input class="btm" type="submit" name="" value="Sign In">
+                    <div class="container" >
+                        <button type="reset"  class="cancelbtn"  onclick = "Cancel()">Cancel</button>
+                        <span class="psw"><a href="#">Forgot password?</a></span>
+                      </div>
+                </form>
+                </div>
+                </div>
+</body>
+
+</html>
